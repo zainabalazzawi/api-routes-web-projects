@@ -1,5 +1,5 @@
 import Cors from "cors";
-import hobbies from "../../Data/Hobbies";
+import skills from "../../Data/Skills";
 import initMiddleware from "../../InitMiddleware/init-middleware";
 // Initialize the cors middleware
 const cors = initMiddleware(
@@ -10,5 +10,5 @@ const cors = initMiddleware(
 
 export default function (req, res) {
   cors(req, res);
-  return res.status(200).json(hobbies);
+  return res.status(200).json(skills);
 }
