@@ -1,4 +1,4 @@
-import projects from "../../../data/Projects";
+import projects from "../../../Data/Projects";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (req, res) {

@@ -1,6 +1,6 @@
 import Cors from "cors";
 import initMiddleware from "../../InitMiddleware/init-middleware";
-const projects = require("../../data/Projects");
+const projects = require("../../Data/Projects");
 // Initialize the cors middleware
 const cors = initMiddleware(
   Cors({
